@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo ordine cliente</title>
+</head>
+<body>
+    <h2>Modulo ordine cliente</h2> 
+    <form action="es1_b.php" method="GET"> 
+        <h3>Dati cliente</h3> 
+
+        <label>Nome:</label> 
+        <input type="text" name="nome">
+        <br><br>
+
+        <label>Cognome:</label>
+        <input type="text" name="cognome"><br><br>
+
+        <label>Ragione Sociale:</label>
+        <input type="text" name="ragione"><br><br>
+
+        <label>Indirizzo:</label>
+        <input type="text" name="indirizzo"><br><br>
+
+        <label>P. IVA:</label>
+        <input type="text" name="piva"><br><br>
+
+        <label>Telefono:</label>
+        <input type="text" name="telefono"><br><br>
+
+        <h3>Dati prodotto</h3>
+        <label>Descrizione:</label>
+        <input type="text" name="descrizione"><br><br>
+
+        <label>Codice:</label>
+        <input type="text" name="codice"><br><br>
+
+        <label>Giacenza:</label>
+        <input type="number" name="giacenza"><br><br>
+
+        <label>Prezzo Unitario (€):</label>
+        <input type="number" step="0.01" name="prezzo_unitario"><br><br>
+
+        <label>% IVA:</label>
+        <input type="number" step="0.01" name="iva"><br><br>
+
+        <h3>Ordine</h3>
+        <label>Quantità:</label>
+        <input type="number" name="quantita"><br><br>
+
+        <label>% Sconto:</label>
+        <input type="number" step="0.01" name="sconto" value="0"><br><br>
+
+        <input type="submit" value="Invia Ordine">
+    </form>
+
+</body>
+</html>
